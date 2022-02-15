@@ -36,7 +36,7 @@ const Body = () => {
                   duration: 1.5
                 }}>
             <div className="img--main">
-                <Image src={cardImg} alt=''/> 
+                <Image src={cardImg} alt='' priority={true}/> 
             </div>
            {/* <CardImg className="img--main"/> */}
         </motion.div>
