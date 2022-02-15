@@ -10,21 +10,21 @@
   font-family: 'U8';
   font-style: normal;
   font-weight: normal;
-  src: local('U8 Regular'), url('../fonts/U8-Regular.otf');
+  src: url('../fonts/U8-Regular.otf');
 }
 
 @font-face {
   font-family: 'U8 Medium';
   font-style: normal;
   font-weight: normal;
-  src: local('U8 Medium'), url('../fonts//U8-Medium.otf');
+  src: url('../fonts//U8-Medium.otf');
 }
 
 @font-face {
   font-family: 'U8 Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('U8 Bold'), url('../fonts/U8-Bold.otf');
+  src: url('../fonts/U8-Bold.otf');
 }
 
 
