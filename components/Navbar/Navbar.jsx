@@ -1,4 +1,4 @@
-import Piggylogo from '/public/assets/piggylogo.svg'
+import Piggylogo from '/assets/piggylogo.svg'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 

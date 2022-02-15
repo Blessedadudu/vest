@@ -1,5 +1,5 @@
 import React from 'react'
-import CardImg from '/public/assets/cardImg.svg'
+import CardImg from '/assets/cardImg.svg'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 

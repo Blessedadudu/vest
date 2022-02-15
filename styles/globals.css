@@ -353,7 +353,7 @@ button, button:focus {
 }
 
 .body .section--1 h1 {
-  font-family: 'U8 Bold';
+  font-family: U8 Bold;
   font-style: normal;
   font-size: 52px;
   line-height: 65px;
