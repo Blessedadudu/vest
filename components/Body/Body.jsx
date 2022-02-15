@@ -30,7 +30,7 @@ const Body = () => {
                 </div>
             </div>
         </div>
-        <motion.div className='img' initial={{ opacity: .5, y: 100, x: 100, scale: .5 }} animate={{ opacity: 1, y: 0, x: 0, scale: 1 }}
+        <motion.div className='img' initial={{ opacity: 0, y: 100, x: 100, scale: .5 }} animate={{ opacity: 1, y: 0, x: 0, scale: 1 }}
                   transition={{
                   ease: "linear",
                   duration: 1.5
