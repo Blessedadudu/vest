@@ -1,4 +1,4 @@
-import Piggylogo from '/assets/piggylogo.svg'
+import piggylogo from '/assets/piggylogo.svg'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -59,9 +59,9 @@ export default function Navbar() {
               ease: "easeInOut",
               duration: .7
             }}>
-          {/* <Image alt="" src={piggylogo}
-           /> */}
-           <Piggylogo className="piggyLogo"/>
+          <Image alt="" src={piggylogo} width={200} height={50}
+           />
+           {/* <Piggylogo className="piggyLogo"/> */}
         </motion.div>
         <input type="checkbox" className="nav_checkbox" id="navi-toggle"/> 
         <label htmlFor="navi-toggle" className="nav_button">

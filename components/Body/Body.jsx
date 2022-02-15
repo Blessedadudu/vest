@@ -1,7 +1,7 @@
 import React from 'react'
-import CardImg from '/assets/cardImg.svg'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import cardImg from '/assets/cardImg.svg'
 
 
 const Body = () => {
@@ -35,8 +35,10 @@ const Body = () => {
                   ease: "linear",
                   duration: 1.5
                 }}>
-           {/* <Image src={cardImg} alt='' className="img--main"/>  */}
-           <CardImg className="img--main"/>
+            <div className="img--main">
+                <Image src={cardImg} alt=''/> 
+            </div>
+           {/* <CardImg className="img--main"/> */}
         </motion.div>
     </div>
   )
