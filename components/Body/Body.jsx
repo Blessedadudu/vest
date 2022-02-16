@@ -36,7 +36,7 @@ const Body = () => {
                   duration: 1.5
                 }}>
             <div className="img--main">
-                <Image src="/cardImg.svg" alt='' width={1500} height={1300} priority={true}/> 
+                <Image src="/cardImg.svg" alt='' width={800} height={800} priority={true}/> 
             </div>
            {/* <CardImg className="img--main"/> */}
         </motion.div>

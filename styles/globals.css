@@ -25,7 +25,7 @@
   font-family: 'U8 Bold';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/U8-Bold.otf');
+  src: url('/U8-Bold.otf');
 }
 
 
@@ -444,11 +444,14 @@ button, button:focus {
   }
 }
 
+.body .img  {
+  position: relative;
+  right: -8rem;
+}
 .body .img .img--main {
   width: 100%;
   font-size: 650px;
   position: relative;
-  right: -4rem;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-animation: bounce 2s ease-in-out infinite alternate;
