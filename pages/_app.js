@@ -1,3 +1,4 @@
+import 'normalize.css'
 import '../styles/globals.css'
 // import '../components/Navbar/Navbar.module.scss'
 

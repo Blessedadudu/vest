@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
 
+
 * {
   margin: 0; 
   padding: 0; 
@@ -479,6 +480,7 @@ button, button:focus {
     margin-top: 6rem;
     position: relative;
     right: 0;
+    text-align: center;
     -webkit-transform: scale(1);
             transform: scale(1);
     -webkit-animation: bounce 2s ease-in-out infinite alternate;
