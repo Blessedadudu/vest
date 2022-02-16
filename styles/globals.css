@@ -450,7 +450,7 @@ button, button:focus {
 }
 .body .img .img--main {
   width: 100%;
-  font-size: 650px;
+  /* font-size: 650px; */
   position: relative;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
