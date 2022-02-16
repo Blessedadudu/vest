@@ -479,6 +479,11 @@ button, button:focus {
     grid-gap: 4rem 5rem;
     max-width: 901px;
   }
+
+  .body .img  {
+    position: relative;
+    right: 0;
+  }
   .body .img .img--main {
     margin-top: 6rem;
     position: relative;
